@@ -16,3 +16,22 @@ class FinalWin(QWidget):
        self.initUI()
        self.connects() 
        self.show() 
+
+   def initUI(self):
+       ''' crea elementos gráficos '''
+       self.workh_text = QLabel(txt_workheart) 
+       self.workindex_text = QLabel(txt_index)
+       self.layout_line = QVBoxLayout()
+       self.layout_line.addWidget(self.index_text, alignment = Qt.AlignCenter)
+       self.layout_line.addWidget(self.workh_text, alignment = Qt.AlignCenter)
+       self.setLayout(self.layout) 
+
+
+
+
+
+
+
+
+
+
