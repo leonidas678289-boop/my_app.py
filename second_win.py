@@ -9,3 +9,13 @@ from PyQt5.QtWidgets import (
 from instr import *
 from final_win import *
 
+class TextWin(QWidget):
+   def __init__(self):
+       ''' en donde se realizan las preguntas  '''
+       super().__init__() 
+       self.set_appear()
+       self.initUI()
+       self.connects() 
+       self.show() 
+
+
