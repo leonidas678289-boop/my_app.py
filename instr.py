@@ -1,3 +1,4 @@
+from PyQt5.QtCore import QTime
 win_x, win_y = 200, 100
 win_width, win_height = 1000, 600
 
@@ -32,5 +33,10 @@ txt_timer = ''
 txt_age = 'Años completos:'
 txt_finalwin = 'Resultados'
 txt_index = 'Índice de Ruffier: '
-txt_workheart = 'Rendimiento cardíaco: '
+txt_workheart = 'Rendimiento cardíaco: 
+txt_res1: "bajo. ¡Acuda al médico de inmediato!"
+txt_res2: "satisfactorio. ¡Vea a su médico"
+txt_res3: "promedio. Puede valer la pena ver a su médico para que lo revise"
+txt_res4: "por encima del promedio"
+txt_res5: "alto"
 
