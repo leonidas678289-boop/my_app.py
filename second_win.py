@@ -144,15 +144,6 @@ def timer3Event(self):
        self.btn_test2.clicked.connect(self.timer_sits)
        self.btn_test3.clicked.connect(self.timer_final)
 
-   def set_appear(self):
-       self.setWindowTitle(txt_title)
-       self.resize(win_width, win_height)
-       self.move(win_x, win_y)  
-
-   def next_click(self):
-       self.tw = TestWin()
-       self.hide()
-
 
 
 
